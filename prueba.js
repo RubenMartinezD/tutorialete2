@@ -1,0 +1,4 @@
+// function suma_numeros (numero1, numero2){var resultado = numero1 + numero2; return resultado}var total = suma_numeros (3, 4); alert("Total: "+ total)
+//var coche = {aceleracion: 30, velocidad: 0, acelerar: function(){velocidad = this.aceleracion + this.velocidad}} // La referencia this.indica que se usará elatributo del objeto
+//coche.acelerar(); console.log("velocidad= " + coche.velocidad) //Mostrará “velocidad = 30”
+//var Pokemon = function(){this.nivel = 10;this.nombre = “”this.subir_de_nivel = function(){this.nivel++;console.log(nombre+” sube de nivel”)}}var pikachu = new Pokemon()pikachu.nombre = “Pikachu”pikachu.subir_de_nivel() //Mostrará por pantalla “Pikachu sube de nivel”var mudkip = new Pokemon()mudkip.nombre = “Mudkip”mudkip.subir_de_nivel() //Mostrará por pantalla “Mudkip sube de nivel”
